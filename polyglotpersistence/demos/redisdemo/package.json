@@ -1,0 +1,16 @@
+{
+  "name": "redisdemo",
+  "version": "1.0.0",
+  "description": "key/value demo with redis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^2.6.0-2",
+    "sleep": "^3.0.1"
+  }
+}
