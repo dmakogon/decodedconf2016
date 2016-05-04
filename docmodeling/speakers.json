@@ -1,0 +1,387 @@
+
+    {
+      "name": "Josh Holmes",
+      "bio": "Passionate soul who gets his kicks solving problems with deep fried awesomeness. Currently employed by Microsoft.",
+      "imageURI": "https://c2.staticflickr.com/8/7281/9593764665_f1936f00bc_n.jpg",
+      "sessions": [ 1, 53 ],
+      "blog": "http://joshholmes.com",
+      "twitter": "joshholmes"
+    }
+    {
+      "name": "Janne Koskinen",
+      "bio": "Fearless leader of the viking pack from Finland",
+      "imageURI": "https://pbs.twimg.com/profile_images/3298782363/30a174149b1fe2a19b444c0c3d9ac86f.png",
+      "sessions": [ 2 ],
+      "blog": "http://appelfish.cloudapp.net",
+      "twitter": "jtjk"
+    }
+    {
+      "name": "Eric Maino",
+      "bio": "Thrill seeking Microsoft engineer proves every day that the impossible just takes a little longer.",
+      "imageURI": "https://pbs.twimg.com/profile_images/3121162602/58ca4e21f008c82ace7bd6f4b39aeee0_400x400.jpeg",
+      "sessions": [ 3 ],
+      "blog": "http://blogs.msdn.com/eric",
+      "twitter": "ericmaino"
+    }
+    {
+      "name": "Ali Hajimirza",
+      "bio": "Newest member of the team. ",
+      "imageURI": "http://www.alihm.net/images/me.jpg",
+      "sessions": [ 4 ],
+      "blog": "http://www.alihm.net/",
+      "twitter": "ali92hm"
+    }
+    {
+      "name": "Ari Bornstein",
+      "bio": "An avid Machine Learning enthusiast with a passion for history, engaging with new technologies and computational medicine.",
+      "imageURI": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/085/0cb/0027016.jpg",
+      "sessions": [ 6, 34 ],
+      "blog": "http://pythiccoder.com",
+      "twitter": "pythiccoder"
+    }
+    {
+      "name": "Ville Rantala",
+      "bio": "Software engineer with a curious mind. Bets on Web technologies and JavaScript. Enjoys playing guitar after vision gets blurry from staring at a laptop screen for too long.",
+      "imageURI": "http://s.gravatar.com/avatar/9c5b2cc67abe31c7d61caaee2a245f59?s=320",
+      "sessions": [ 5, 53 ],
+      "blog": "https://blog.vjrantal.net",
+      "twitter": "vjrantal"
+    }
+    {
+      "name": "David Makogon",
+      "bio": "Fueled by Azure, NoSQL, photography, puns, coffee, craft beer, NY Giants, and family. Wardrobe and employment sponsored by Microsoft.",
+      "imageURI": "https://pbs.twimg.com/profile_images/663406817070989312/gcgP1jnQ.jpg",
+      "sessions": [ 7, 9 ],
+      "blog": "",
+      "twitter": "dmakogon"
+    }
+    {
+      "name": "Tim Park",
+      "bio": "I spend a lot of time in the mountains: either on a mountain bike or playing with a mountain of data.",
+      "imageURI": "https://pbs.twimg.com/profile_images/514462671987425280/hyFPYoKX.jpeg",
+      "sessions": [ 8, 56 ],
+      "blog": "http://twitter.com/timpark",
+      "twitter": "timpark"
+    }
+    {
+      "name": "Ivan Judson",
+      "bio": "Fly fisherman scholar from the mountains of Montana and has his doctorate from Northeastern in Boston.",
+      "imageURI": "https://pbs.twimg.com/profile_images/561209080354594816/z4rwZkgH.jpeg",
+      "sessions": [ 10, 35 ],
+      "blog": "http://irjudson.org/",
+      "twitter": "irjudson"
+    }
+    {
+       "name": "Beat Schwegler",
+      "bio": "Head in the cloud - feet on the ground. Based in Switzerland, if (!hacking) activity = (weather==Nice) ? RockClimbing : PlayingXBox;",
+      "imageURI": "https://avatars2.githubusercontent.com/u/1908283?v=3&s=460",
+       "sessions": [ 11, 12 ],
+      "blog": "http://cloudbeatsch.com",
+      "twitter": "cloudbeatsch"
+     }
+
+    {
+      "name": "Chew-Yean Yam",
+      "bio": "Love data. The more I know about them, the more I want to get to know them.",
+      "imageURI": "",
+      "sessions": [ 32 ],
+      "blog": "https://hallodata.wordpress.com",
+      "twitter": ""
+    }
+    {
+      "name": "Rick Barraza",
+      "bio": "Design Strategy and Creative Engineering at Microsoft. No longer needs the weirding module.",
+      "imageURI": "https://pbs.twimg.com/profile_images/691723916964827136/svO1LUZt.jpg",
+      "sessions": [ 13, 55 ],
+      "blog": "http://rickbarraza.com",
+      "twitter": ""
+    }
+    {
+      "name": "Jason Fox",
+      "bio": "Works at Microsoft building and evangelizing epic stuff..",
+      "imageURI": "https://jasongfox.files.wordpress.com/2015/08/11412305_1004894242878161_1480384234761792725_n.jpg",
+      "sessions": [ 14 ],
+      "blog": "https://jasongfox.com/",
+      "twitter": "jasongfox"
+    }
+    {
+      "name": "Sara Spalding",
+      "bio": "West coast native currently living in Boston. Passionate about how technology can improve life for everyone. Happiest on skis.",
+      "imageURI": "https://pbs.twimg.com/profile_images/706307354762022913/xuyEDXd3.jpg",
+      "sessions": [ 15 ],
+      "blog": "",
+      "twitter": "saraspalding"
+    }
+    {
+      "name": "Brian Lambert",
+      "bio": "Coder, hacker, maker, softwarenerd, ham radio operator.",
+      "imageURI": "http://static1.squarespace.com/static/52306b76e4b088d34dbc790d/t/56fdcc3f07eaa0fe99a8d529/1459473497711/softwarenerd.jpg",
+      "sessions": [ 16 ],
+      "blog": "http://softwarenerd.org",
+      "twitter": "softwarenerd"
+    }
+    {
+      "name": "Ritchie Lozada",
+      "bio": "VR/AR/all kinds of reality as long as it's not real reality...",
+      "imageURI": "",
+      "sessions": [ 18 ],
+      "blog": "https://ritchielozada.com/",
+      "twitter": "rlozada/"
+    }
+    {
+      "name": "Tyler Gibson",
+      "bio": "Senior User Experience Designer, Design Strategist",
+      "imageURI": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/08e/2e8/2a513ac.jpg",
+      "sessions": [ 19, 20 ],
+      "blog": "",
+      "twitter": ""
+    }
+    {
+      "name": "Shawn Cicoria",
+      "bio": "Open Source Engineer EastUS2 - Craftsman",
+      "imageURI": "https://avatars0.githubusercontent.com/u/1080406?v=3&s=460",
+      "sessions": [ 21 ],
+      "blog": "http://blogs.msdn.com/scicoria",
+      "twitter": "cicorias"
+    }
+    {
+      "name": "Felix Rieseberg",
+      "bio": "Open Source Hipster and Engineer based in San Francisco",
+      "imageURI": "https://avatars2.githubusercontent.com/u/1426799?v=3&s=460",
+      "sessions": [ 22, 42 ],
+      "blog": "https://www.felixrieseberg.com",
+      "twitter": "felixrieseberg"
+    }
+    {
+      "name": "Steven Edouard",
+      "bio": "Pull-request wrangler @ Microsoft San Francisco",
+      "imageURI": "https://avatars3.githubusercontent.com/u/3053263?v=3&s=460",
+      "sessions": [ 23 ],
+      "blog": "http://blog.stevenedouard.com/devblog",
+      "twitter": "sedouard"
+    }
+    {
+      "name": "Jukka Silvennoinen",
+      "bio": "Dr Jukka has 15 years of mobile development experience with last 10 years spend on helping others to get their apps fly.",
+      "imageURI": "https://i.stack.imgur.com/mPoCD.jpg",
+      "sessions": [ 24 ],
+      "blog": "http://www.drjukka.com/blog/wordpress",
+      "twitter": ""
+    }
+    {
+      "name": "Ami Turgman",
+      "bio": "Senior Engineer and Evangelist at Microsoft",
+      "imageURI": "http://gravatar.com/avatar/e4ffd5be87230d540b77c484bac22eee?s=200",
+      "sessions": [ 25 ],
+      "blog": "http://www.amiturgman.com",
+      "twitter": "amiturgman"
+    }
+    {
+      "name": "Stefan Gordon",
+      "bio": "Principal Engineer and Evangelist at Microsoft",
+      "imageURI": "http://www.stefangordon.com/wp-content/uploads/2016/03/2_2016_grayscale_512px.png",
+      "sessions": [ 26, 29 ],
+      "blog": "http://www.stefangordon.com",
+      "twitter": ""
+    }
+    {
+      "name": "Anthony Turner",
+      "bio": "Software Engineer focusing on secure, maintainable, and business-driven solutions. He specializes in cryptography, biomedical technology, and hardware interfaces.",
+      "imageURI": "https://avatars2.githubusercontent.com/u/225599?v=3&s=460",
+      "sessions": [ 26, 29 ],
+      "blog": "http://www.anthturner.com",
+      "twitter": ""
+    }
+    {
+      "name": "Toby Bradshaw",
+      "bio": "Experienced Development Director/Tech Lead",
+      "imageURI": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/080/24f/370ab89.jpg",
+      "sessions": [ 27 ],
+      "blog": "https://www.linkedin.com/in/toby-bradshaw-299670b",
+      "twitter": "toby_bradshaw"
+    }
+    {
+      "name": "Rita Zhang",
+      "bio": "Gone native in SVC, ",
+      "imageURI": "https://pbs.twimg.com/profile_images/378800000720032992/e6c4c506353df452cbc9ef074897fb6e_400x400.jpeg",
+      "sessions": [ 28, 54 ],
+      "blog": "https://ritazh.com/",
+      "twitter": "ritazzhang"
+    }
+    {
+      "name": "Jim Spring",
+      "bio": "Found on the coast of California, Jim has been bit wrangling for a number of years and especially likes digging into new and obscure architectures.  When not poking a stick at computer related things, he can be found on two wheels, in the ocean, or sampling IPAs.",
+      "imageURI": "http://innerdot.com/images/jims_hs.jpg",
+      "sessions": [ 30 ],
+      "blog": "http://innerdot.com",
+      "twitter": "jmspring"
+    }
+    {
+      "name": "JD Marymee",
+      "bio": "Adrenalin junkie, pilot, sky diver, sailer, coder and in my spare time I shoot Dos Equis commercials",
+      "imageURI": "https://pbs.twimg.com/profile_images/2239553467/JDProfile3_400x400.jpg",
+      "sessions": [ 33, 52 ],
+      "blog": "http://marymee.com/blog/",
+      "twitter": "jmarymee"
+    }
+    {
+      "name": "Mike Lanzetta",
+      "bio": "Mike Lanzetta has an interest and enough knowledge to get into trouble in the areas of Machine Learning, Neural Networks, and Distributed Systems. He gets into trouble in plenty of other areas, but has no knowledge of it.",
+      "imageURI": "https://noodlemanager.blob.core.windows.net/assets/headshots/headshot_with_bug.jpg",
+      "sessions": [ 36, 37 ],
+      "blog": "http://mikelanzetta.com",
+      "twitter": "noodlefrenzy"
+    }
+    {
+      "name": "Justin Bronder",
+      "bio": "Codes algorithms, sails yachts, gardens and battles snails, takes photos. Piezophile but not a Hypolith.",
+      "imageURI": "https://pbs.twimg.com/profile_images/650085704773427200/klCYSl97.jpg",
+      "sessions": [ 38 ],
+      "blog": "https://plus.google.com/+JustinBronder",
+      "twitter": "bronder"
+    }
+    {
+      "name": "Matthew Podwysocki",
+      "bio": "Matthew Podwysocki is a Principal Software Engineer and Open Sourcerer at Microsoft. He has a passion for Reactive Programming at all Scales, IoT, and improving technical education for the next generation of software developers.",
+      "imageURI": "https://pbs.twimg.com/profile_images/506580998222381057/axNYv-3_.jpeg",
+      "sessions": [ 39, 41 ],
+      "blog": "http://mattpodwysocki.github.io/",
+      "twitter": "mattpodwysocki"
+    }
+    {
+      "name": "Tomi Paananen",
+      "bio": "A software developer from Finland. I don’t care for long walks on the beach, but I do like beer and I wish I owned a cat.",
+      "imageURI": "https://avatars1.githubusercontent.com/u/1629215?v=3&s=460",
+      "sessions": [ 39 ],
+      "blog": "http://tomipaananen.azurewebsites.net/",
+      "twitter": "tompaana"
+    }
+    {
+      "name": "Limor Lahiani",
+      "bio": "An undercover geek, passionate about people and technology",
+      "imageURI": "https://pbs.twimg.com/profile_images/643888965028675585/FjQAmGR7.jpg",
+      "sessions": [ 40 ],
+      "blog": "http://limorl.com",
+      "twitter": "limorlah"
+    }
+    {
+      "name": "Erik Schlegel",
+      "bio": "As an open source engineer for Microsoft my primary focus is crafting technical solutions to Microsoft’s most strategic partners while using the most emerging and cutting edge open source technologies, and sharing the story with the OSS community through blogs and conferences. We want to show how open source frameworks can be used in conjunction with some amazing Microsoft products like Cortana, Azure and Bing to create a world-class solution for our clients ranging from startup accelerators to large institutions and the developer community.",
+      "imageURI": "https://avatars1.githubusercontent.com/u/7635865?v=3&s=460",
+      "sessions": [ 17, 41 ],
+      "blog": "https://erikschlegel.com",
+      "twitter": "erikschlegel1"
+    }
+    {
+      "name": "Eric Rozell",
+      "bio": "Functional reactive programming enthusiast rooted in Cambridge, MA.",
+      "imageURI": "https://avatars2.githubusercontent.com/u/1106239?v=3&s=460",
+      "sessions": [ 41 ],
+      "blog": "http://ericroz.wordpress.com",
+      "twitter": "EricRozell"
+    }
+    {
+      "name": "David Douglas",
+      "bio": "Turbo ninja web dev, made in Belfast and terrorising London now",
+      "imageURI": "https://pbs.twimg.com/profile_images/459679756183937026/85pfvW-v.jpeg",
+      "sessions": [ 43 ],
+      "blog": "http://deadlyfingers.net",
+      "twitter": "deadlyfingers"
+    }
+    {
+      "name": "Jason Poon",
+      "bio": "Raised in the snowbanks of Canada, Jason feeds on code, and satisfies that daily appetite as a software developer at Microsoft.",
+      "imageURI": "https://pbs.twimg.com/profile_images/643337511863889921/_QCjoGVt_400x400.jpg",
+      "sessions": [ 44 ],
+      "blog": "http://jasonpoon.ca",
+      "twitter": "jasonthepoon"
+    }
+    {
+      "name": "Andre Price",
+      "bio": "Software Engineer @ Microsoft - Always interested in learning new tech and helping others apply it",
+      "imageURI": "https://anpricedx.blob.core.windows.net/pub/hs_320_213.jpg",
+      "sessions": [ 44, 46 ],
+      "blog": "https://blog.obsoleted.net",
+      "twitter": "obsoleted"
+    }
+    {
+      "name": "Pamela Cortez",
+      "bio": "Maker badass formerly of Sparkfun and now an IoT evangelist at Microsoft",
+      "imageURI": "https://pbs.twimg.com/profile_images/589583171731070976/TvmrQVvb_400x400.jpg",
+      "sessions": [ 46 ],
+      "blog": "https://www.linkedin.com/in/pamelacortezhellotechie",
+      "twitter": "hello_techie"
+    }
+    {
+      "name": "Eero Bragge",
+      "bio": "Software Engineer that loves languages. Studies Hebrew for fun. Wrote first computer programs with Pascal at Marquette Senior High School in 1986 and made money first-time with AutoCAD Lisp-scripts in 1990. Enjoys motorcycling on race tracks using IoT to help analyze why he is so much slower than 10 year old kids.",
+      "imageURI": "http://birota.azurewebsites.net/content/images/2016/03/ebragge.jpg",
+      "sessions": [ 48 ],
+      "blog": "http://birota.azurewebsites.net/",
+      "twitter": "ebragge"
+    }
+    {
+      "name": "Michael Platt",
+      "bio": "As a Director in the Microsoft Strategic Projects group based in Redmond, Washington, Michael Platt is deeply involved in the definition and provision of strategic architectural technical direction and support for Microsoft Corporation in the sports, fitness and assistive technology areas. In this role he works with a number of sports and assistive organizations such as Real Madrid and the Guide Dogs and with sports, fitness and assistive technology providers as well as working on Microsoft Products in these areas. He has extensive knowledge of the use of sensors and analytics in the sport, fitness and assistive technology area. Michael has more than 40 years’ experience in the computer industry. His background includes experience in technical presales, consultancy, research and development, manufacturing, testing, and assurance in a wide variety of senior, leadership, and management roles in both the field and product development. A 20 year Microsoft veteran, Michael has worked a broad range of technical positions in the U.S. and the U.K. Before Michael joined Microsoft, he worked at IBM UK Laboratories Ltd for more than 20 years. Michael is involved in a wide range of strategic projects in sports, fitness and assistive technology with a number of organizations and partners. He is interested in the marketplace, hardware and sensors, the collection, storage and protection of data and the use of Machine Learning and analysis on sports, fitness and assistive data.",
+      "imageURI": "https://farm2.staticflickr.com/1187/1046069869_1adb9d59a9_z_d.jpg",
+      "sessions": [ 50 ],
+      "blog": "http://blogs.technet.com/b/michael_platt/",
+      "twitter": ""
+    }
+    {
+      "name": "Petro Soininen",
+      "bio": "At the crossroads of epic technology and new business. Loves helping people succeed through leadership, tech, creativity and novel hackz.",
+      "imageURI": "https://pbs.twimg.com/profile_images/705696919926996992/X9uRQD4J.jpg",
+      "sessions": [ 51 ],
+      "blog": "https://medium.com/@petrosoininen",
+      "twitter": "petrosoininen"
+    }
+    {
+      "name": "Alex Clemmer",
+      "bio": "Alex Clemmer is a software engineer at Microsoft. He started the initiative to add Windows support to Mesos. Prior to this, he was a student. Alex is mostly known for turning Snapchat into a remote filesystem and porting lisp to the Apple //e.",
+      "imageURI": "http://blog.nullspace.io/images/alex4.jpg",
+      "sessions": [ 31 ],
+      "blog": "http://blog.nullspace.io/",
+      "twitter": "hausdorff_space"
+    }
+    {
+      "name": "Jennifer Marsman",
+      "bio": "When contagious passion meets deep tech and you've got Jennifer Marsman...",
+      "imageURI": "https://mscorpmedia.azureedge.net/mscorpmedia/2016/03/P1060277-2_2-1600x550.jpg",
+      "sessions": [ 49 ],
+      "blog": "https://blogs.msdn.microsoft.com/jennifer/",
+      "twitter": "jennifermarsman"
+    }
+    {
+      "name": "Bill Barnes",
+      "bio": "Bill Barnes (@billba) alternates between being a professional cartoonist who writes code and a professional developer who makes comics. Right now he works at Microsoft’s Technical Evangelism and Development group so… probably the latter? Read more at http://bill.barnacle.org",
+      "imageURI": "https://www.dropbox.com/s/v2rckwoj6bl2zu2/more%20bill.jpg?dl=0",
+      "sessions": [ 45 ],
+      "blog": "http://bill.barnacle.org",
+      "twitter": "billba"
+    }
+    {
+      "name": "Juhana Ilari Sakari Koski",
+      "bio": "Mobile, embedded and hardware are my jam.",
+      "imageURI": "",
+      "sessions": [ 53 ],
+      "blog": "https://github.com/juhanak",
+      "twitter": ""
+    }
+    {
+      "name": "Eoin Bailey",
+      "bio": "Azure master and slayer of bugs large and small, physical and code...",
+      "imageURI": "https://avatars3.githubusercontent.com/u/540335?v=3&s=400",
+      "sessions": [ 56 ],
+      "blog": "http://www.eoinbailey.com/",
+      "twitter": "eoinbailey"
+    }
+    {
+      "name": "Philip Moynagh",
+      "bio": "Philip B. Moynagh is vice president in the Internet of Things (IoT) Group and general manager of the Quark Solutions Division at Intel Corporation. Based in Ireland, he leads the team responsible for identifying IoT opportunities, translating them into silicon and platform architectures based on Intel® Quark™ technology, and engaging with customers to achieve business transformation.",
+      "imageURI": "https://media.licdn.com/media/p/1/005/055/345/284daee.jpg",
+      "sessions": [ 47 ],
+      "blog": "https://newsroom.intel.com/biography/philip-b-moynagh/",
+      "twitter": ""
+    }
+ 

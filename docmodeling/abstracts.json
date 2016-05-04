@@ -1,0 +1,958 @@
+
+    {
+      "id": null,
+      "time": "08:00",
+      "day": "2016/5/5",
+      "track": "all",
+      "title": "Registration",
+      "abstract": "Um - registration... ;)",
+      "tags": [
+      ],
+      "speakers": [
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": null,
+      "time": "09:00",
+      "day": "2016/5/5",
+      "track": "all",
+      "title": "Keynote",
+      "abstract": "Mind blowing tech and jaw dropping discoveries await you in this kick ass keynote...",
+      "tags": [
+      ],
+      "speakers": [
+        "TBA"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 1,
+      "time": "10:00",
+      "day": "2016/5/5",
+      "track": "azure",
+      "title": "Intro to Azure Web Apps",
+      "abstract": "Azure Web Apps is the platform as a service offering from Microsoft Azure for running node.js, PHP, Python, Java and of course C# or even static HTML web sites. As a platform as a service offering, all you worry about is writing your code and setting your scale limits. Other than that, the platform takes care of all of the hosting, scaling and so on.",
+      "tags": [
+        "Azure",
+        "PaaS",
+        "Web",
+        "PHP",
+        "Node.js"
+      ],
+      "speakers": [
+        "Josh Holmes"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 2,
+      "time": "11:00",
+      "day": "2016/5/5",
+      "track": "azure",
+      "title": "Turning modern website into push notification enabled mobile app",
+      "tags": [
+        "Azure",
+        "PaaS",
+        "Web",
+        "Mobile"
+      ],
+      "abstract": "I had a problem and responsive web application solved that partially. Missing piece was to reach users when content was changed. Solution was Azure Notification hubs and mobile apps for ios, android and windows phone",
+      "speakers": [
+        "Janne Koskinen"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 3,
+      "time": "13:00",
+      "day": "2016/5/5",
+      "track": "azure",
+      "title": "Service Fabric not just for .NET",
+      "tags": [
+        "Azure",
+        "PaaS",
+        "Web",
+        "Service",
+        "Services",
+        "Fabric",
+        "Micro",
+        "MicroServices"
+      ],
+      "abstract": "In this session we'll explore how to Service Fabric can be used to build cross platform scalable micros services on both Windows and Linux",
+      "speakers": [
+        "Eric Maino"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 26,
+      "time": "14:00",
+      "day": "2016/5/5",
+      "track": "azure",
+      "title": "Azure Encrypted [Part 1]",
+      "tags": [
+        "Azure",
+        "Data",
+        "Encryption"
+      ],
+      "abstract": "An introduction to securing your data in the cloud.  You'll get an Encryption 101 lesson followed by practical examples of how you can increase the security of your data with tools like Azure Key Vault, encrypted blob storage and more.  This is Part 1 of a 2 Part event.",
+      "speakers": [
+        "Stefan Gordon",
+        "Anthony Turner"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 29,
+      "time": "15:00",
+      "day": "2016/5/5",
+      "track": "azure",
+      "title": "Azure Encrypted [Part 2]",
+      "tags": [
+        "Azure",
+        "Data",
+        "Encryption"
+      ],
+      "abstract": "An introduction to securing your data in the cloud.  You'll get an Encryption 101 lesson followed by practical examples of how you can increase the security of your data with tools like Azure Key Vault, encrypted blob storage and more.  This is Part 2, attending Part 1 is recommended.",
+      "speakers": [
+        "Stefan Gordon",
+        "Anthony Turner"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 4,
+      "time": "16:30",
+      "day": "2016/5/5",
+      "track": "azure",
+      "title": "Creating and Deploying Fullstack Node Application in 10 mins",
+      "abstract": "We'll start with a brief introduction to Node, npm, bower, grunt, and Yeoman. Then we'll introduce the Angular-Fullstack-Generator, generate a mock project and walk the audience through the setup and configs. At this point we'll be ready to run showing debug/dev capabilities (live refresh, server restart). Lastly, we'll show some CI options and deployment options",
+      "tags": [
+        "Azure",
+        "PaaS",
+        "Web",
+        "Node.js"
+      ],
+      "speakers": [
+        "Ali Hajimirza"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 7,
+      "time": "10:00",
+      "day": "2016/5/5",
+      "track": "data",
+      "title": "Polyglot Persistence: Choosing the right storage mix",
+      "abstract": "NoSQL is all the rage these days: Key-value. Document. Column-family. Graph. Which one to choose? This talk walks through the  core NoSQL-family database types, demonstrating each one's strengths, taking advantage of Azure's database services, as well as 3rd-party databases. We'll then talk about the notion of Polyglot Persistence: Combining multiple databases within a single app.",
+      "tags": [
+        "Azure",
+        "NoSQL",
+        "Data"
+      ],
+      "speakers": [
+        "David Makogon"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 8,
+      "time": "11:00",
+      "day": "2016/5/5",
+      "track": "data",
+      "title": "Processing Planetary Sized Datasets with Azure",
+      "abstract": "Learn how to use Azure infrastructure like HDInsight Spark to process large scale geospatial datasets.",
+      "tags": [
+        "Azure",
+        "Data",
+        "Hadoop",
+        "HDInsight",
+        "Spark",
+        "Geospatial"
+      ],
+      "speakers": [
+        "Tim Park"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 9,
+      "time": "13:00",
+      "day": "2016/5/5",
+      "track": "data",
+      "title": "The shape of JSON: Document modeling 101",
+      "tags": [
+        "Azure",
+        "Data"
+      ],
+      "abstract": "Document databases (e.g. MongoDB, CouchDB, DocumentDB) offer freedom from schema! However: With freedom comes responsibility. And you, Responsible DevArchitect, owe it to yourself to learn how to deal with real world document-modeling challenges, especially if you hail from Relational World.",
+      "speakers": [
+        "David Makogon"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 10,
+      "time": "14:00",
+      "day": "2016/5/5",
+      "track": "data",
+      "title": "Adding Cortana Analytics Functionality to your Python Project",
+      "tags": [
+        "Cortana",
+        "Machine Learning",
+        "Python"
+      ],
+      "abstract": "A demonstration of how to use our Cortana Analytics APIs from Python projects.",
+      "speakers": [
+        "Ivan Judson"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 11,
+      "time": "15:00",
+      "day": "2016/5/5",
+      "track": "data",
+      "title": "Rise of the Machines - A primer to machine learning",
+      "tags": [
+        "Machine Learning"
+      ],
+      "abstract": "Machine learning and statistical modeling allows us to answer questions such as: What’s the likelihood that this user will buy from our website? When will this mechanical part occur a critical failure?  What’s the credit risk of this customer? This session provides an introduction to machine learning and predictive analytics and discusses how to implement such a predictive model, from access to data sources, data exploration, feature selection and creation, building training and testing sets, machine learning over data, model evaluation and experimentation – and finally – deploy the model as a service.",
+      "speakers": [
+        "Beat Schwegler"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 12,
+      "time": "10:00",
+      "day": "2016/5/6",
+      "track": "data",
+      "title": "Large scale NLP processing using python's NLTK on Azure",
+      "tags": [
+        "Machine Learning", "NLP", "Python"
+      ],
+      "abstract": " In this session we're going to show how we implemented the text processing using python's [natural language toolkit (nltk)](http://www.nltk.org/data.html) running as an Azure WebJob.",
+      "speakers": [
+        "Beat Schwegler"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 13,
+      "time": "10:00",
+      "day": "2016/5/5",
+      "track": "client",
+      "title": "More Personal Computing and the changing face of Experience Design",
+      "tags": [
+        "Design",
+        "More Personal Computing"
+      ],
+      "abstract": "",
+      "speakers": [
+        "Rick Barraza"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 14,
+      "time": "11:00",
+      "day": "2016/5/5",
+      "track": "client",
+      "title": "Building engaging experiences using Cognitive Services",
+      "tags": [
+        "Design",
+        "More Personal Computing",
+        "Emotion",
+        "Project Oxford",
+        "Cognitive Services"
+      ],
+      "abstract": "Adding intelligence to your application, so that it knows specific things about your user, can invoke key emotional responses and keep them engaged. Learn how you can use technologies like Microsoft Cognitive Services and computer vision frameworks to create these experiences for your users.",
+      "speakers": [
+        "Jason Fox"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 15,
+      "time": "13:00",
+      "day": "2016/5/5",
+      "track": "client",
+      "title": "How we built an inaccessible accessibility tool (and how you can do better!)",
+      "tags": [
+        "Design",
+        "More Personal Computing",
+        "Accessibility"
+      ],
+      "abstract": "Our team set out to build an app that makes it easy for a blind person to navigate and know what’s around them.  But a month before our ship date, we had an app that a blind person couldn’t use.   What went wrong, and how can you avoid our same fate?  In this talk, we’ll look beyond the technical requirements for building accessible apps, and examine what it really takes to deliver a truly accessible experience.",
+      "speakers": [
+        "Sara Spalding"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 16,
+      "time": "14:00",
+      "day": "2016/5/5",
+      "track": "devops",
+      "title": "DevOps for iOS Mobile Apps: Best practices using Jenkins, Xcode, MacInCloud and HockeyApp",
+      "tags": [
+        "DevOps",
+        "HockeyApp",
+        "MacInCloud",
+        "Xcode",
+        "Process"
+      ],
+      "abstract": "In this talk I'll demonstrate everything you need to know to be a DevOps ace on your next iOS Mobile App. I'll cover setting up Xcode, Jenkins and HockeyApp on a local build machine as well as on a MacInCloud machine and show you the path to DevOps success.",
+      "speakers": [
+        "Brian Lambert"
+      ],
+      "imageURI": "http://static1.squarespace.com/static/52306b76e4b088d34dbc790d/t/56fdcc3f07eaa0fe99a8d529/1459473497711/softwarenerd.jpg"
+    }
+    {
+      "id": 17,
+      "time": "15:00",
+      "day": "2016/5/5",
+      "track": "client",
+      "title": "Using OSM to illuminate the world for blind users with 3D sound",
+      "tags": [
+        "Azure", "PaaS", "Elastic Search",
+        "Docker", "3D Spatial Sound",
+        "Project Oxford",
+        "Open Street Map",
+        "Accessibility"
+      ],
+      "abstract": "A deep dive into Open Street Maps and how the Wikipedia of maps is being used to improve independent mobility and navigation for the visually impaired using a spatial 3D audio engine and project oxford TTS services. My talk will dig into our two uses of OSM in this project: 1) how we use accessibility content from OSM to provide the visually impaired with confidence when they're traveling in an urban environment and 2) how we are using Mapzen, Azure, Docker and Elasticsearch to index and scale the availability of our cloud-based service platform used to navigate blind users, and the open sourcing efforts around this initiative.",
+      "speakers": [
+        "Erik Schlegel"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 18,
+      "time": "16:30",
+      "day": "2016/5/5",
+      "track": "client",
+      "title": "Virtual/Augmented/Mixed Reality",
+      "tags": [
+        "Design",
+        "Virtual Reality",
+        "Augmented Reality",
+        "Mixed Reality"
+      ],
+      "abstract": "Create a multi-user, multi-viewpoint, networked application using Unity networking backed by Azure.",
+      "speakers": [
+        "Ritchie Lozada"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 19,
+      "time": "10:00",
+      "day": "2016/5/5",
+      "track": "devops",
+      "title": "Lean Design in an Agile Engineering World - How Design and planning get to continuous delivery",
+      "tags": [
+        "Process",
+        "Lean",
+        "Agile",
+        "Continous Delivery"
+      ],
+      "abstract": "Ever wondered why engineering has moved to continuous delivery, while design, research and product planning still take months of work that ends up being out of date as soon as its done?  There is a better way, through LEAN design and planning!  Using open source tools and cloud services, see how your design process can keep pace with engineering and products planning can become its own iterative process.",
+      "speakers": [
+        "Tyler Gibson"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 20,
+      "time": "11:00",
+      "day": "2016/5/5",
+      "track": "devops",
+      "title": "Using big data analysis to improve your product - Asking the right questions",
+      "tags": [
+        "Process"
+      ],
+      "abstract": "Azure has many services to collect application telemetry, user analytics, and diagnostics.  There's no lack of data available, so why is it still so hard to build compelling products?  Learn how to ask better questions of your data, your users and your products and services to improve faster and grow your business",
+      "speakers": [
+        "Tyler Gibson"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 21,
+      "time": "13:00",
+      "day": "2016/5/5",
+      "track": "devops",
+      "title": "Integration with VSTS",
+      "tags": [
+        "Process",
+        "DevOps",
+        "VSO",
+        "Node"
+      ],
+      "abstract": "Show you how VSTS Build V2 can build x-plat and a pet project for building on Pull Request from Github - a current limitation but made possible with the VSTS REST API, GitHub API, and npm packages. So you can build like Travis/Appveyor",
+      "speakers": [
+        "Shawn Cicoria"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 22,
+      "time": "14:00",
+      "day": "2016/5/5",
+      "track": "devops",
+      "title": "Run Your Own Open Source CI/CD Service",
+      "tags": [
+        "Process",
+        "Continous Integration",
+        "Continous Delivery"
+      ],
+      "abstract": "Using Virtual Machines, Docker, and Drone, one can easily replace services like Travis, AppVeyor or CircleCI with a self-hosted, lightweight testing service. VMs are a lot cheaper than all of these services - and the open source world has a lot to offer when you compare features.",
+      "speakers": [
+        "Felix Rieseberg"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 23,
+      "time": "15:00",
+      "day": "2016/5/5",
+      "track": "devops",
+      "title": "Deploy What You Already Know & Love: Azure Templating Language",
+      "tags": [
+        "Devops"
+      ],
+      "abstract": "How to use Azure Resource Templating Language to develop and deploy all the Linux things! In this talk we'll go over the nuts and bolts of Azure Templating Language which allows you to deploy dockerized applications and database clusters like postgres and mongodb in a sinch.",
+      "speakers": [
+        "Steven Edouard"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 44,
+      "time": "16:30",
+      "day": "2016/5/5",
+      "track": "devops",
+      "title": "Continuous Delivery with Squirrel and VSO",
+      "tags": [
+        "Azure", "DevOps", "Squirrel", "VSO"
+      ],
+      "abstract": "Crucial bug that needs to get fixed ASAP? This talk will walkthrough creating a continuous delivery pipeline for .NET applications using Squirrel and VSO to make sure your clients are always running the latest and greatest.",
+      "speakers": [
+        "Jason Poon"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 5,
+      "time": "09:00",
+      "day": "2016/5/6",
+      "track": "azure",
+      "title": "Using ManifoldJS to Get More Out of Web Sites",
+      "tags": [
+        "Azure",
+        "PaaS",
+        "Web",
+        "ManifoldJS"
+      ],
+      "abstract": "How to take an existing Web site and turn it into a mobile app using the ManifoldJS toolset. Deployment as a mobile app allows new features and reach via mobile app stores while leveraging existing Web assets and skillset.",
+      "speakers": [
+        "Ville Rantala"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 6,
+      "time": "10:00",
+      "day": "2016/5/6",
+      "track": "azure",
+      "title": "Overcoming common hybrid app challenges with Manifold, Azure and Node",
+      "abstract": "Coming soon",
+      "tags": [
+        "Azure",
+        "PaaS",
+        "Web",
+        "Node.js",
+        "ManifoldJS"
+      ],
+      "speakers": [
+        "Ari Bornstein"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 25,
+      "time": "11:00",
+      "day": "2016/5/6",
+      "track": "azure",
+      "title": "aCLI - Azure Command Line Interface",
+      "tags": [
+        "Azure"
+      ],
+      "abstract": "aCLI is a web based command line interface control that can be used for managing and administrating your app.  The console is designed to be extensible, allowing new commands to be easily added and integrated into it using the plugin design. The console supports most of the common CLI features such as basic commands, environment variables and commands history, as well as more advanced features like context-based instances of the console (AKA tabs), a JSON-view control for viewing JSON results, HTML results, client side commands and styling, side-panel for sticking commands’ results, and more!",
+      "speakers": [
+        "Ami Turgman"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 27,
+      "time": "13:00",
+      "day": "2016/5/6",
+      "track": "azure",
+      "title": "Five Nines from Four - Building highly available applications using OSS on Azure",
+      "tags": [
+        "Azure",
+        "Scale"
+      ],
+      "abstract": "Intro to CAP theory, survey of essential techniques for building scalable solutions on Azure and how OSS (e.g. Redis, Cassandra) can help.",
+      "speakers": [
+        "Toby Bradshaw"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 31,
+      "time": "14:00",
+      "day": "2016/5/6",
+      "track": "azure",
+      "title": "Choosing your Application Container Strategy",
+      "tags": [
+        "Azure",
+        "DevOps",
+        "Containers",
+        "Mesos",
+        "DEIS",
+        "Cloud Foundry",
+        "ACS",
+        "Marathon"
+      ],
+      "abstract": "Application Containers are definitely in your future. But where to start? Should you choose Mesos, DEIS, Cloud Foundry, or what? In this talk, we'll dive into the different container management services and what the benefits and trade offs of the different choices.",
+      "speakers": [
+        "Alex Clemmer"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 28,
+      "time": "15:00",
+      "day": "2016/5/6",
+      "track": "azure",
+      "title": "Host Your Own Open Source Heroku",
+      "tags": [
+        "Azure",
+        "DevOps",
+        "Containers",
+        "Dokku",
+        "Deis",
+        "Cloud Foundry",
+        "Mesos"
+      ],
+      "abstract": "Whether you are a startup or an enterprise, you want happy and productive developers. Using containers, git, and orchestrators, you can now host and manage your own open source platforms similar to Heroku across clusters of machines for your organization. This providers self-service features to developers so they can focus on building awesome apps instead of worrying about infrastructure, while it removes dependencies on Heroku. ",
+      "speakers": [
+        "Rita Zhang"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 30,
+      "time": "16:30",
+      "day": "2016/5/6",
+      "track": "azure",
+      "title": "Debugging Containers on Mesos/Marathon and ACS",
+      "tags": [
+        "Azure",
+        "DevOps",
+        "Containers",
+        "Mesos",
+        "Marathon"
+      ],
+      "abstract": "In the previous session we talked about standing up your containers. In this talk, we'll dive deep into what to do when things go wrong and you need to debug containers on Mesos/Marathon and ACS.",
+      "speakers": [
+        "Jim Spring"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 32,
+      "time": "16:30",
+      "day": "2016/5/5",
+      "track": "data",
+      "title": "What's In My Data?",
+      "tags": [
+        "Machine Learning"
+      ],
+      "abstract": "What do I need to do to my data before anything else in the machine learning pipeline? Demonstrate what you can do to text-based data alone to improve your ML performance on a classification task and how much gain you can expect. ",
+      "speakers": [
+        "Chew-Yean Yam"
+      ]
+     }
+     {
+      "id": 33,
+      "time": "09:00",
+      "day": "2016/5/6",
+      "track": "data",
+      "title": "Dynamic retraining of Azure ML Models",
+      "tags": [
+        "Machine Learning", "Azure"
+      ],
+      "abstract": "Got a model but tired of manually retraining it? ML Models decay in relation to the amount of new data generated that affect the model. In this chalk talk we'll review how Azure ML model retraining works and utilize live code thorugh a github repo that is customizable. At the end you will be able to dynamically retrain your modesl and also dynamically update your end points in a totally automated solution.",
+      "speakers": [
+        "JD Marymee"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 34,
+      "time": "11:00",
+      "day": "2016/5/6",
+      "track": "data",
+      "title": "From Experimentation to Production: Pandas and Sci-Kit learn on Azure ML",
+      "tags": [
+        "Machine Learning"
+      ],
+      "abstract": "Pandas and Sci-Kit learn are powerful open source data science and machine learning toolkits. However, putting them into production is not as seamless as it could be. In this talk attendees will learn how to build, visualize and connect Pandas and SciKit learn ensemble models into an Azure ML pipeline for experimentation and production.",
+      "speakers": [
+        "Ari Bornstein"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 35,
+      "time": "13:00",
+      "day": "2016/5/6",
+      "track": "data",
+      "title": "Machine Learning with Python, Jupyter and AzureML",
+      "tags": [
+        "Machine Learning", "Python", "Jupyter", "Azure"
+      ],
+      "abstract": "A tutorial on how to build Machine Learning models on your desktop using OSS tools including python, Jupyter, and the AzureML Python Client then deploy them as production services to Azure.",
+      "speakers": [
+        "Ivan Judson"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 36,
+      "time": "14:00",
+      "day": "2016/5/6",
+      "track": "data",
+      "title": "ML on Spark on Azure",
+      "tags": [
+        "Machine Learning", "Spark", "Azure"
+      ],
+      "abstract": "You can do ML at scale! I go over what Spark is, why it's cool, and how to use it to do machine learning.",
+      "speakers": [
+        "Mike Lanzetta"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 37,
+      "time": "15:00",
+      "day": "2016/5/6",
+      "track": "data",
+      "title": "Deep Learning with CNTK",
+      "tags": [
+        "Machine Learning", "Azure"
+      ],
+      "abstract": "I'll go over the Deep Learning toolkit landscape briefly, then cover our Deep Learning toolkit - CNTK. I'll walk through an example, and explain how our toolkit differentiates itself from others (both good and bad).",
+      "speakers": [
+        "Mike Lanzetta"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 38,
+      "time": "16:30",
+      "day": "2016/5/6",
+      "track": "data",
+      "title": "Deep Learning with Keras, Theano, and TensorFlow",
+      "tags": [
+        "Machine Learning", "Azure"
+      ],
+      "abstract": "There are several different engines that do a great job with neural networks. In this session, we'll dive into how to build neural nets with several of the most popular ones.",
+      "speakers": [
+        "Justin Bronder"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 39,
+      "time": "09:00",
+      "day": "2016/5/6",
+      "track": "client",
+      "title": "Cordova + Node on Android and iOS - the ulimate P2P platform",
+      "tags": [
+        "Client", "Node", "Cordova", "Android", "iOS", "IoT"
+      ],
+      "abstract": "Do you need to write mobile apps that can run everywhere and remain fully functional even when there is no Internet? What about apps that can talk to other instances of themselves on other handsets even without an Internet infrastructure? Come learn about the Open Source Thali project which  provides a Cordova/Node.js based development platform  with multi-master sync and a full Bluetooth/ble/Multi-Peer Connectivity Framework based P2P radio stack.",
+      "speakers": [
+        "Matthew Podwysocki", "Tomi Paananen"
+      ],
+      "imageURI": "http://thaliproject.org/assets/logos/thali-logo.png"
+    }
+    {
+      "id": 40,
+      "time": "10:00",
+      "day": "2016/5/6",
+      "track": "client",
+      "title": "The story of Node.js+Chakra",
+      "tags": [
+        "Client", "Node", "UWP"
+      ],
+      "abstract": "An overview of the node-chakra project, what were the original goals, how we actually implemented it in terms of architecture (high level), and current status. (Hopefully by the time of the talk it will be merged with the official node.js repo). share the architectural choices that were done back then, why the approach was better in terms of dealing with the open source community and how it affects the node.js community. (And why this is a good thing)",
+      "speakers": [
+        "Limor Lahiani"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 41,
+      "time": "11:00",
+      "day": "2016/5/6",
+      "track": "client",
+      "title": "React Native on Windows Devices",
+      "tags": [
+        "Client", "React", "UWP", "Chakra"
+      ],
+      "abstract": "React Native – a framework for building world-class native applications using JavaScript and React. We've built the Universal Windows Platform libraries for React Native, opening up the framework to 270 million active Windows 10 devices, and the opportunity to reach beyond mobile devices, to PCs, and even the Xbox One and HoloLens. Learn more about the process of developing React Native for Windows and an app published on the Windows Store built with the framework.",
+      "speakers": [
+        "Erik Schlegel", "Eric Rozell"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 42,
+      "time": "13:00",
+      "day": "2016/5/6",
+      "track": "client",
+      "title": "How we built Ghost Desktop: Desktop Apps with NodeJS and Electron",
+      "tags": [
+        "Client", "Node", "UWP"
+      ],
+      "abstract": "You may have seen apps like Ghost Desktop, Slack, Visual Studio Code, or Docker's Kitematic: desktop applications written using Node.js and Chromium. You might be hoping to build something similar. Electron was originally built for the Atom editor, and enables developers to build beautiful cross-platform apps using the JavaScript and Node Modules we all love. When combined with React, Angular, or Ember, you're looking at a fantastic desktop app development framework.",
+      "speakers": [
+        "Felix Reiseberg"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 43,
+      "time": "14:00",
+      "day": "2016/5/6",
+      "track": "client",
+      "title": "Responsive design",
+      "tags": [
+        "Client", "Design", "Cordova", "iOS", "Android", "UWP"
+      ],
+      "abstract": "Developing hybrid apps can be a painful experience compared to native dev. But there are some great pain killers available to help web developers keep mobile!"
+,
+      "speakers": [
+        "David Douglas"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 24,
+      "time": "15:00",
+      "day": "2016/5/6",
+      "track": "client",
+      "title": "Engaging your mobile users",
+      "tags": [
+        "Client", "Mobile", "Analytics"
+      ],
+      "abstract": "Would it be great if you could know exactly how your users are using your app, and that you could interact with them according to their usage patterns? You actually can do that by utilizing Azure Engagement API. It includes full online analytics of the application usage, and it allows you to easily create user categories from the analytics data. Then you can use these categories to target your message, and it even allows you to select the timing on the delivery based on the user’s way on using your app.",
+      "speakers": [
+        "Jukka Silvennoinen"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 45,
+      "time": "16:30",
+      "day": "2016/5/6",
+      "track": "client",
+      "title": "TypeScript Saves The World",
+      "tags": [
+        "Client", "TypeScript", "JavaScript", "React.js", "O365"
+      ],
+      "abstract": "Like the plucky hero of a dime novel, JavaScript is an unlikely success, having risen from modest roots to stand astride the globe like a colossus. But it is not without its challenges. Learn how TypeScript can help you write JavaScript faster, easier, and safer, without losing touch with its unique personal style. We’ll play with React.js and the Microsoft Graph, too.",
+      "speakers": [
+        "Bill Barnes"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 50,
+      "time": "09:00",
+      "day": "2016/5/6",
+      "track": "devops",
+      "title": "IoT in Care",
+      "tags": [
+        "IoT"
+      ],
+      "abstract": "It will discuss the UX challenges, technologies available for care and direction of IOT and wearables in assistive technologies. IOT embedded hardware, firmware, applications and services will be covered along with the challenges in each area. A number of different projects that Microsoft is undertaking in the care and assistive space (including visual, physical and mental impairment) will be examined as examples.",
+      "speakers": [
+        "Michael Platt"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 46,
+      "time": "10:00",
+      "day": "2016/5/6",
+      "track": "devops",
+      "title": "Micro-controllers and micro-processors for the Internet of Things",
+      "tags": [
+        "IoT"
+      ],
+      "abstract": "In this session you will learn about the device-side options you have when building for the Internet of Things. You will see a compare and contrast of Micro Controller Units (MCU) and Micro Processor Units (MPU) and when to choose which one. You will learn how to write code for MCUs using Arduino Wiring, and how to write for MPUs running either Linux or Windows 10 IoT Core. In each example you will learn how to incorporate the Azure IoT SDK for Arduino, Node.js and C#.",
+      "speakers": [
+        "Andre Price", "Pamela Cortez"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 47,
+      "time": "11:00",
+      "day": "2016/5/6",
+      "track": "devops",
+      "title": "IoT at Intel",
+      "tags": [
+        "IoT"
+      ],
+      "abstract": "Philip Moynagh, VP of the IoT Division at Intel, will discuss the impact of IoT and Intel and how they can help you with your IoT solutions",
+      "speakers": [
+        "Philip Moynagh"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 48,
+      "time": "13:00",
+      "day": "2016/5/6",
+      "track": "devops",
+      "title": "IoT monitoring app on Raspberry Pi2",
+      "tags": [
+        "IoT", "Raspberry PI"
+      ],
+      "abstract": "Implementing IoT monitoring app on Raspberry Pi2 with Windows 10 IoT Core and connecting it to Azure backend.",
+      "speakers": [
+        "Eero Bragge"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 49,
+      "time": "14:00",
+      "day": "2016/5/6",
+      "track": "devops",
+      "title": "Building your own Lie Detector",
+      "tags": [
+        "IoT", "Azure", "PowerBI", "Machine Learning"
+      ],
+      "abstract": " Today, we have the technology to “read minds” (well, EEG waves!). Using a headset from Emotiv, I’ve captured the big data stream of EEG coming out of our heads. In this session, I will show the detection of facial expressions and emotional state, and training a machine learning model to employ mental commands (making a virtual object move via thought). Then, I will walk through and share my results on a “lie detector” experiment comparing brain waves when telling the truth and lying. I have built classifiers based on the EEG data using Azure Machine Learning to predict whether a subject is telling the truth, which I will demonstrate. The effectiveness of multiple classifiers can be easily compared. This session will be a fun look inside your brain waves along with demonstrations of data processing and predictive analytics. Attendees will gain exposure to the Emotiv EPOC headset and Azure Machine Learning.",
+      "speakers": [
+        "Jennifer Marsman"
+      ],
+      "imageURI": "https://mscorpmedia.azureedge.net/mscorpmedia/2016/03/Jennifer-Marsman-MG_3668_v2-3-1600x720.jpg"
+    }
+    {
+      "id": 51,
+      "time": "15:00",
+      "day": "2016/5/6",
+      "track": "devops",
+      "title": "Ambient Intelligence in the Real World",
+      "tags": [
+        "IoT",
+        "data"
+      ],
+      "abstract": "Ambient Intelligence - such a fancy buzzphrase. What do we mean with it - Is it black magic or something around us every day? How do I design and build systems that understand the presence, context, past behavior and predicted future behavior in an unobtrusive manner?",
+      "speakers": [
+        "Petro Soininen"
+      ],
+      "imageURI": "https://onedrive.live.com/redir?resid=E6374DA02B8D95B!322854&authkey=!ADHaG4cfvZUxS7I&v=3&ithint=photo%2cjpg"
+    }
+    {
+      "id": 52,
+      "time": "16:30",
+      "day": "2016/5/6",
+      "track": "devops",
+      "title": "Building resilient solutions for harsh environments",
+      "tags": [
+        "IoT"
+      ],
+      "abstract": "Got radiation problems? Building solutions for deployments where no person will be present to support from 30 days to 6 months? Going deep sea or low earth orbit? Then you will love this session!",
+      "speakers": [
+        "JD Marymee"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 53,
+      "time": "09:00",
+      "day": "2016/5/7",
+      "track": "azure",
+      "title": "ThingLabs - an IoT Workshop",
+      "tags": [
+        "IoT"
+      ],
+      "abstract": "In this 4 hour workshop, you will get started with IoT from wiring up a board to building an internet connected weather station complete with dashboards.",
+      "speakers": [
+        "Ville Rantala", "Juhana Ilari Sakari Koski"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 54,
+      "time": "09:00",
+      "day": "2016/5/7",
+      "track": "data",
+      "title": "DevOps Workshop - Introductory Hands-on Training for Open Source DevOps Workflow",
+      "tags": [
+        "DevOps",
+        "Docker",
+        "Dokku",
+        "Continous Integration",
+        "Continous Delivery",
+        "Jenkins",
+        "Azure"
+      ],
+      "abstract": "In this 4 hour hands-on workshop, you will get familiar with few open source tools and practices for building, testing, deploying, and scaling your applications.",
+      "speakers": [
+        "Rita Zhang"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 55,
+      "time": "09:00",
+      "day": "2016/5/7",
+      "track": "client",
+      "title": "Creative Programming in Unity",
+      "tags": [
+        "Client", "Unity", "Design"
+      ],
+      "abstract": "In this 4 hour workshop, our mad scientists will lead you down the path of what it means to do creative programming in Unity.",
+      "speakers": [
+        "Rick Barraza"
+      ],
+      "imageURI": ""
+    }
+    {
+      "id": 56,
+      "time": "09:00",
+      "day": "2016/5/7",
+      "track": "devops",
+      "title": "Azure 101",
+      "tags": [
+        "Azure", "PaaS", "Node.js"
+      ],
+      "abstract": "From PaaS to IaaS, this will show you the basics of Azure 101 in a hands on lab.",
+      "speakers": [
+        "Eoin Bailey"
+      ]
+    }
