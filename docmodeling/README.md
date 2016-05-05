@@ -23,19 +23,20 @@ During the talk, I showed some document queries, using two different document da
 ## MongoDB queries
 
 ### Query a session and all of its speakers
-var session = db.conf.find( {type:"abstract", id:26}).next()
-db.conf.find({type:"speaker",name: {$in: session.speakers}}, {name:1, sessions:1, _id:0})
+    var session = db.conf.find( {type:"abstract", id:26}).next()
+    db.conf.find({type:"speaker",name: {$in: session.speakers}}, {name:1, sessions:1, _id:0})
 
 ### Query a session based on its name
-db.conf.find({title: { $regex: /^The shape/ }}).pretty()
+    db.conf.find({title: { $regex: /^The shape/ }}).pretty()
 
 ### Query all session abstracts, just displaying id, title, and speakers
-db.conf.find( {type:"abstract", id: {$gte:1}},{id:1,title:1,speakers:1})
+    db.conf.find( {type:"abstract", id: {$gte:1}},{id:1,title:1,speakers:1})
 
-### Query all content related to roomID 3. This returns multiple document types
-(two abstract documents and a room document), as they all have a `roomId` property
-with `value=3`.
-db.conf.find({roomId:3},{abstract:0,time:0,day:0,id:0,track:0,imageURI:0,_id:0}).pretty()
+### Query all content related to roomID 3.
+
+This returns multiple document types (two abstract documents and a room document), as they all have a `roomId` property with `value=3`.
+
+    db.conf.find({roomId:3},{abstract:0,time:0,day:0,id:0,track:0,imageURI:0,_id:0}).pretty()
 
 ## DocumentDB queries
 
