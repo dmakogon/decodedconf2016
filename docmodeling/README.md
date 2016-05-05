@@ -32,7 +32,9 @@ During the talk, I showed some document queries, using two different document da
 ### Query all session abstracts, just displaying id, title, and speakers
     db.conf.find( {type:"abstract", id: {$gte:1}},{id:1,title:1,speakers:1})
 
-### Query all content related to roomID 3. This returns multiple document types (two abstract documents and a room document), as they all have a `roomId` property with `value=3`.
+### Query all content related to roomID 3.
+
+This returns multiple document types (two abstract documents and a room document), as they all have a `roomId` property with `value=3`.
     db.conf.find({roomId:3},{abstract:0,time:0,day:0,id:0,track:0,imageURI:0,_id:0}).pretty()
 
 ## DocumentDB queries
