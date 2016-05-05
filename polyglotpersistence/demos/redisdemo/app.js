@@ -7,11 +7,7 @@ var redis = require('redis'),
   , redisKey = config.redis.authKey;
 
 var client = redis.createClient(6380,redisServer, {auth_pass: redisKey, tls: {servername: redisServer}});
-// client.on("connect", function () {
-//     client.set("foo_rand000000000000", "some fantastic value", redis.print);
-//     client.get("foo_rand000000000000", redis.print);
-//     client.set("string key", "string val", redis.print);
-// });
+
 
 client.on("connect", function () {
 

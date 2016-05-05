@@ -1,0 +1,318 @@
+ db.conf.find({roomId:3},{_id:0}).pretty()
+{
+	"id" : 9,
+	"time" : "13:00",
+	"day" : "2016/5/5",
+	"track" : "data",
+	"title" : "The shape of JSON: Document modeling 101",
+	"tags" : [
+		"Azure",
+		"Data"
+	],
+	"abstract" : "Document databases (e.g. MongoDB, CouchDB, DocumentDB) offer freedom from schema! However: With freedom comes responsibility. And you, Responsible DevArchitect, owe it to yourself to learn how to deal with real world document-modeling challenges, especially if you hail from Relational World.",
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{
+	"id" : 7,
+	"time" : "10:00",
+	"day" : "2016/5/5",
+	"track" : "data",
+	"title" : "Polyglot Persistence: Choosing the right storage mix",
+	"abstract" : "NoSQL is all the rage these days: Key-value. Document. Column-family. Graph. Which one to choose? This talk walks through the  core NoSQL-family database types, demonstrating each one's strengths, taking advantage of Azure's database services, as well as 3rd-party databases. We'll then talk about the notion of Polyglot Persistence: Combining multiple databases within a single app.",
+	"tags" : [
+		"Azure",
+		"NoSQL",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{ "type" : "room", "video" : false, "capacity" : 75, "roomId" : 3 }
+> db.conf.find({roomId:3},{abstract:0,_id:0}).pretty()
+{
+	"id" : 9,
+	"time" : "13:00",
+	"day" : "2016/5/5",
+	"track" : "data",
+	"title" : "The shape of JSON: Document modeling 101",
+	"tags" : [
+		"Azure",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{
+	"id" : 7,
+	"time" : "10:00",
+	"day" : "2016/5/5",
+	"track" : "data",
+	"title" : "Polyglot Persistence: Choosing the right storage mix",
+	"tags" : [
+		"Azure",
+		"NoSQL",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{ "type" : "room", "video" : false, "capacity" : 75, "roomId" : 3 }
+> db.conf.find({roomId:3},{title:1,_id:0}).pretty()
+{ "title" : "The shape of JSON: Document modeling 101" }
+{ "title" : "Polyglot Persistence: Choosing the right storage mix" }
+{ }
+> db.conf.find({roomId:3},{abstract:0,_id:0}).pretty()
+{
+	"id" : 9,
+	"time" : "13:00",
+	"day" : "2016/5/5",
+	"track" : "data",
+	"title" : "The shape of JSON: Document modeling 101",
+	"tags" : [
+		"Azure",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{
+	"id" : 7,
+	"time" : "10:00",
+	"day" : "2016/5/5",
+	"track" : "data",
+	"title" : "Polyglot Persistence: Choosing the right storage mix",
+	"tags" : [
+		"Azure",
+		"NoSQL",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{ "type" : "room", "video" : false, "capacity" : 75, "roomId" : 3 }
+> db.conf.find({roomId:3},{abstract:0,time:0,day:0,_id:0}).pretty()
+{
+	"id" : 9,
+	"track" : "data",
+	"title" : "The shape of JSON: Document modeling 101",
+	"tags" : [
+		"Azure",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{
+	"id" : 7,
+	"track" : "data",
+	"title" : "Polyglot Persistence: Choosing the right storage mix",
+	"tags" : [
+		"Azure",
+		"NoSQL",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{ "type" : "room", "video" : false, "capacity" : 75, "roomId" : 3 }
+> db.conf.find({roomId:3},_id:0}).pretty()
+2016-05-01T15:18:09.410+0100 E QUERY    SyntaxError: Unexpected token :
+> db.conf.find({roomId:3},{_id:0}).pretty()
+{
+	"id" : 9,
+	"time" : "13:00",
+	"day" : "2016/5/5",
+	"track" : "data",
+	"title" : "The shape of JSON: Document modeling 101",
+	"tags" : [
+		"Azure",
+		"Data"
+	],
+	"abstract" : "Document databases (e.g. MongoDB, CouchDB, DocumentDB) offer freedom from schema! However: With freedom comes responsibility. And you, Responsible DevArchitect, owe it to yourself to learn how to deal with real world document-modeling challenges, especially if you hail from Relational World.",
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{
+	"id" : 7,
+	"time" : "10:00",
+	"day" : "2016/5/5",
+	"track" : "data",
+	"title" : "Polyglot Persistence: Choosing the right storage mix",
+	"abstract" : "NoSQL is all the rage these days: Key-value. Document. Column-family. Graph. Which one to choose? This talk walks through the  core NoSQL-family database types, demonstrating each one's strengths, taking advantage of Azure's database services, as well as 3rd-party databases. We'll then talk about the notion of Polyglot Persistence: Combining multiple databases within a single app.",
+	"tags" : [
+		"Azure",
+		"NoSQL",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{ "type" : "room", "video" : false, "capacity" : 75, "roomId" : 3 }
+> db.conf.find({roomId:3},{abstract:0,_id:0}).pretty()
+{
+	"id" : 9,
+	"time" : "13:00",
+	"day" : "2016/5/5",
+	"track" : "data",
+	"title" : "The shape of JSON: Document modeling 101",
+	"tags" : [
+		"Azure",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{
+	"id" : 7,
+	"time" : "10:00",
+	"day" : "2016/5/5",
+	"track" : "data",
+	"title" : "Polyglot Persistence: Choosing the right storage mix",
+	"tags" : [
+		"Azure",
+		"NoSQL",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{ "type" : "room", "video" : false, "capacity" : 75, "roomId" : 3 }
+> db.conf.find({roomId:3},{abstract:0,time:0,day:0,_id:0}).pretty()
+{
+	"id" : 9,
+	"track" : "data",
+	"title" : "The shape of JSON: Document modeling 101",
+	"tags" : [
+		"Azure",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{
+	"id" : 7,
+	"track" : "data",
+	"title" : "Polyglot Persistence: Choosing the right storage mix",
+	"tags" : [
+		"Azure",
+		"NoSQL",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{ "type" : "room", "video" : false, "capacity" : 75, "roomId" : 3 }
+> db.conf.find({roomId:3},{abstract:0,time:0,day:0,id:0,track:0,_id:0}).pretty()
+{
+	"title" : "The shape of JSON: Document modeling 101",
+	"tags" : [
+		"Azure",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{
+	"title" : "Polyglot Persistence: Choosing the right storage mix",
+	"tags" : [
+		"Azure",
+		"NoSQL",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"imageURI" : "",
+	"type" : "abstract",
+	"roomId" : 3
+}
+{ "type" : "room", "video" : false, "capacity" : 75, "roomId" : 3 }
+> db.conf.find({roomId:3},{abstract:0,time:0,day:0,id:0,track:0,imageURI:0,_id:0}).pretty()
+{
+	"title" : "The shape of JSON: Document modeling 101",
+	"tags" : [
+		"Azure",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"type" : "abstract",
+	"roomId" : 3
+}
+{
+	"title" : "Polyglot Persistence: Choosing the right storage mix",
+	"tags" : [
+		"Azure",
+		"NoSQL",
+		"Data"
+	],
+	"speakers" : [
+		"David Makogon"
+	],
+	"type" : "abstract",
+	"roomId" : 3
+}
+{ "type" : "room", "video" : false, "capacity" : 75, "roomId" : 3 }
+> db.conf.find({roomId:3},{abstract:0,time:0,day:0,id:0,track:0,imageURI:0,_id:0}).pretty()
