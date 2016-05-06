@@ -22,9 +22,13 @@ I demo'd several databases using Database-as-a-Service. With DBaaS, there's no n
 ### Relational
 Ok, no, we didn't see a relational database demo. However, you should be aware that Azure provides a relational database service. as a service.
 
-*SQL Database.* SQL Database is based on SQL Server V12. Aside from various scale options, it also supports DTU pooling, allowing multiple databases to share DTU resources.
+**SQL Database.** SQL Database is based on SQL Server V12. Aside from various scale options, it also supports DTU pooling, allowing multiple databases to share DTU resources.
 
 ## Key/value
-*Redis.* Redis service has both non-persistent and persistent options. As my demo showed, programming against Redis service is the same as programming against Redis installed in your own VM.
+**Redis.** Redis service has both non-persistent and persistent options. As my demo showed, programming against Redis service is the same as programming against Redis installed in your own VM.
 
-*Azure Table Storage.*
+**Azure Table Storage.** Table storage is part of the broader Azure Storage service, providing tables, blobs, and queues. Each storage account provides up to 500TB of durable storage. Within Table Storage, you may create any number of tables, with any number of entities per table.
+
+## Document
+**DocumentDB.** DocumentDB manages JSON documents, complete with a SQL-based query language, REST API + language SDK's, and server-side JavaScript stored procedures. Capacity and compute strength are both independently scalable.
+
