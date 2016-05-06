@@ -20,7 +20,7 @@ Then, it introduces the notion of *Polyglot Persistence*: Combining more than on
 I demo'd several databases using Database-as-a-Service. With DBaaS, there's no need to administer any VM's or install database software. Everything is taken care of for you. Here's a quick rundown on DBaaS available to you within the various database categories.
 
 ### Relational
-Ok, no, we didn't see a relational database demo. However, you should be aware that Azure provides a relational database service. as a service.
+Ok, no, we didn't see a relational database demo. However, you should be aware that Azure provides SQL Server database, as a service.
 
 **SQL Database.** SQL Database is based on SQL Server V12. Aside from various scale options, it also supports DTU pooling, allowing multiple databases to share DTU resources.
 
@@ -41,6 +41,16 @@ Both mLab and Compose provide hosted MongoDB.
 
 ## VM-based databases
 
-Given that Azure runs both Linux and Windows virtual machines, you should be able to install and run any database engine you require, given that you have proper licensing (if required).
+Given that Azure runs both Linux and Windows virtual machines, you should be able to install and run any database engine you require, given that you have proper licensing (if required). I demo'd two databases running in VMs. I built these by simply creating a VM, ssh'ing to the VM, and following the vendor's installation instructions. For demo purposes, I stored database content on the OS disk. For learning/getting-started purposes, this is the easiest approach, and requires no additional Virtual Machine configuration. In a typical environment, you would attach additional disks to your database VMs for storage.
+
+### Document
+
+**MongoDB**. Installation instructions [here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+
+### Graph
+
+**Neo4j**. Installation instructions [here](http://debian.neo4j.org/).
+
+## Azure Marketplace
 
 The Azure Marketplace contains several pre-built templates that are designed to spin up an entire database cluster. With these templates, databases are deployed to your Virtual Machines. Once a deployment is complete, you will be able to connect to, and start using, your new database. You'll also have full access to the VMs that have been created, including the ability to change VM size and quantity.
