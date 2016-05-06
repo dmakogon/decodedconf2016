@@ -37,7 +37,11 @@ I showed a few databases that are available through hosting partners. These host
 
 ### Document
 
-Both mLab and Compose provide hosted MongoDB.
+[mLab](https://mlab.com) and [Compose](https://compose.io/) provide hosted MongoDB in Azure.
+
+### Graph
+
+[GrapheneDB](http://graphenedb.com) and [Graph Story](https://graphstory.com) provide hosted Neo4j in Azure.
 
 ## VM-based databases
 
