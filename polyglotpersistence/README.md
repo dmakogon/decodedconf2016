@@ -24,11 +24,23 @@ Ok, no, we didn't see a relational database demo. However, you should be aware t
 
 **SQL Database.** SQL Database is based on SQL Server V12. Aside from various scale options, it also supports DTU pooling, allowing multiple databases to share DTU resources.
 
-## Key/value
+### Key/value
 **Redis.** Redis service has both non-persistent and persistent options. As my demo showed, programming against Redis service is the same as programming against Redis installed in your own VM.
 
 **Azure Table Storage.** Table storage is part of the broader Azure Storage service, providing tables, blobs, and queues. Each storage account provides up to 500TB of durable storage. Within Table Storage, you may create any number of tables, with any number of entities per table.
 
-## Document
+### Document
 **DocumentDB.** DocumentDB manages JSON documents, complete with a SQL-based query language, REST API + language SDK's, and server-side JavaScript stored procedures. Capacity and compute strength are both independently scalable.
 
+## 3rd-party database providers
+I showed a few databases that are available through hosting partners. These hosted databases are available in Azure.
+
+### Document
+
+Both mLab and Compose provide hosted MongoDB.
+
+## VM-based databases
+
+Given that Azure runs both Linux and Windows virtual machines, you should be able to install and run any database engine you require, given that you have proper licensing (if required).
+
+The Azure Marketplace contains several pre-built templates that are designed to spin up an entire database cluster. With these templates, databases are deployed to your Virtual Machines. Once a deployment is complete, you will be able to connect to, and start using, your new database. You'll also have full access to the VMs that have been created, including the ability to change VM size and quantity.
